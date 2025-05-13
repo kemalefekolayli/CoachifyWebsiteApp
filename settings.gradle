@@ -1,1 +1,4 @@
 rootProject.name = 'coachifyWebsite'
+include 'coachify-security', 'coachify-entity'
+include 'coachify-website-backend'
+
