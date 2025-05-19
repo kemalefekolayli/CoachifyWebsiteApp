@@ -15,7 +15,7 @@ repositories {
 }
 
 dependencies {
-  implementation("org.springframework.boot:spring-boot-starter-data-mongodb:3.2.5")
+  implementation("org.springframework.boot:spring-boot-starter-data-mongodb:3.4.5")
 
   implementation("com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.17.0")
 

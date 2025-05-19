@@ -68,7 +68,8 @@ public class AuthManager {
       .orElseThrow(() -> new RuntimeException("Coach not found"));
 
     if (!passwordEncoder.matches(rawPassword, coach.getPassword())) {
-      throw new RuntimeException("Invalid password");
+      throw new RuntimeException("Invalid password"); // not sure about this
+
     }
 
     return jwtService.generateToken(coach.getId(), UserRole.COACH);

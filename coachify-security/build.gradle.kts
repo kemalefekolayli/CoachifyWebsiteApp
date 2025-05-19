@@ -19,8 +19,8 @@ dependencies {
   implementation(project(":coachify-entity"))
 
   // Spring Security & MongoDB
-  implementation("org.springframework.boot:spring-boot-starter-security:3.2.5")
-  implementation("org.springframework.boot:spring-boot-starter-data-mongodb:3.2.5")
+  implementation("org.springframework.boot:spring-boot-starter-security:3.4.5")
+  implementation("org.springframework.boot:spring-boot-starter-data-mongodb:3.4.5")
 
   // JWT support (jjwt)
   implementation("io.jsonwebtoken:jjwt-api:0.11.5")
